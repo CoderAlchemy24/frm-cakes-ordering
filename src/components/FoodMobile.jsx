@@ -11,6 +11,7 @@ export default function FoodMobile({ item, count = 0, onAdd, onIncrement, onDecr
                 />
                 <div className="absolute -bottom-6 left-1/2 -translate-x-1/2">
                     <CartButton
+                        aria-label={`Add ${item.name} to cart`}
                         count={count}
                         onAdd={() => onAdd?.(item)}
                         onIncrement={() => onIncrement?.(item)}
