@@ -114,7 +114,7 @@ function App() {
           })}
         </div>
       </div>
-      <div className='sm:w-full md:w-3/4 lg:w-1/3 mx-auto my-2 p-2 h-fit sticky top-8'>
+      <div className='sm:w-full md:w-3/4 lg:w-1/3 mx-auto my-11 p-2 h-fit sticky top-8'>
         {cartItems.length === 0 ? (
           <CartEmpty />
         ) : (
